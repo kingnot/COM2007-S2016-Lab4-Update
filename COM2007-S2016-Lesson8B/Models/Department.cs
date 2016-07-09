@@ -18,6 +18,7 @@ namespace COM2007_S2016_Lesson8B.Models
 
         [Required]
         [StringLength(50)]
+        [Display(Name = "Department Name")]
         public string Name { get; set; }
 
         public decimal Budget { get; set; }

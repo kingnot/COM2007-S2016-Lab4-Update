@@ -20,6 +20,7 @@ namespace COM2007_S2016_Lesson8B.Models
 
         [Required]
         [StringLength(100)]
+        [Display(Name = "Course Title")]
         public string Title { get; set; }
 
         public int Credits { get; set; }
